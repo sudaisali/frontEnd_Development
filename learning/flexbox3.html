@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .Box{
+            display: flex;
+        }
+        .sub{
+            flex-grow: 1;
+            background-color: violet;
+            margin: 10px;
+            height: 200px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        .subdiv{
+            
+            
+            flex-grow: 1;
+            background-color: rgb(94, 209, 123);
+            margin: 10px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        #child1{
+            height: auto;
+        }
+    </Style>
+</head>
+<body>
+    <div class="Box">
+        <div class="sub">
+            1
+            <div class="Box">
+                <div class="subdiv">1</div>
+                <div class="subdiv">2</div>
+            <div class="subdiv">3</div>
+            </div>
+            <div class="Box">
+                <div class="subdiv">1</div>
+                <div class="subdiv">2</div>
+            <div class="subdiv">3</div>
+            <div class="subdiv">4</div>
+            </div>
+            <div class="Box">
+                <div class="subdiv">1</div>
+                <div class="subdiv">2</div>
+            <div class="subdiv">3</div>
+            <div class="subdiv">4</div>
+            <div class="subdiv">5</div>
+            </div>
+          
+        </div>
+
+        <div class="sub">2</div>
+        <div class="sub">3</div>
+    </div>
+    <div class="Box"> 
+    <div class="sub" id="child1">1</div>
+    <div class="sub" id="child1">2</div>
+    <div class="sub"id="child1">3</div>
+    <div class="sub"id="child1">4</div>
+
+    </div>
+    <div class="Box"> 
+        <div class="sub" id="child1">1</div>
+        <div class="sub" id="child1">2</div>
+        <div class="sub"id="child1">3</div>
+        <div class="sub"id="child1">4</div>
+        <div class="sub"id="child1">5</div>
+    
+        </div>
+</body>
+</html>

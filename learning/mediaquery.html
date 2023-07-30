@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            margin: 0px;
+          }
+        .main{
+            display: flex;
+            height: 100vh;
+
+        }
+       .sidebar{
+        background-color: aqua;
+        width: 30%;
+
+       }
+       .section{
+        background-color: aquamarine;
+        width: 100%;
+        
+       }
+       @media screen and (max-width: 600px) {
+        .main{
+            display: block;
+            
+        }
+        .sidebar{
+            width: 100%;
+            height: 20%;
+        }
+        .section{
+            height: 100%;
+        }
+       
+        
+        
+       }
+       @media all and (min-width: 600px){
+        .sidebar a:after{
+            content: attr(mydata);
+        }
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <h3>Sidebar content</h3>
+            <a  mydata="Email" href="pakistan.com">HelloPakistan</a>
+        </div>
+        <div class="section">
+            <h1> Hello World!</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+p{
+    color: blue;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    border-color: rgb(3, 3, 3);
+    border-radius: 20;
+    border-style: dashed;
+}
+h2{
+    border: 2px Solid greenyellow;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+h3{
+    outline-width: 2px;
+    outline-style: dotted;
+    outline-color: aqua;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+#block1{
+    width: 200px;
+    background-color: rgb(247, 192, 192);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+ol{
+    background-color: brown;
+    padding: 20px;
+    list-style-position: inside;
+    list-style-type: georgian;
+}
+ol li{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+ul{
+    background-color: brown;
+    padding: 20px;
+    list-style-position: outside;
+}
+ul li{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+#student{
+    width: 100%;
+    background-color: rgb(201, 172, 134);
+    border-collapse: collapse;
+    padding: 8px;
+    
+}
+#student th{
+text-align: start;
+}whi
+#student th , #student td{
+    border: 1px solid rgb(0, 0, 0);
+}
